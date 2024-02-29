@@ -1,0 +1,32 @@
+amends "Workshop.pkl"
+
+title = "workshop 2025"
+interactive = true
+seats = 200000
+occupancy = 1.24
+duration = 3.h
+`abstract` = """
+こんな感じだよ
+"""
+
+event {
+  name = "sample"
+  year = 2025
+}
+
+instructors {
+  "Kate"
+  "Jerome"
+}
+
+sessions {
+  new {
+    time = 30.min
+    date = "1/1/2025"
+  }
+
+  new {
+    time = 15.min
+    date = "1/1/2025"
+  }
+}
